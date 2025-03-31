@@ -8,7 +8,7 @@ const Header = () => {
         style={{ fontFamily: "Helvetica Neue" }}
       >
         <button
-          className="border-2 py-1 px-4 border-stone-950 rounded "
+          className="border-2 py-1 px-4 border-stone-950 hover:border-[#d1a018] rounded "
           style={{
             fontFamily: "Oswald",
             fontWeight: "normal",
@@ -17,7 +17,7 @@ const Header = () => {
           CREATE A CAMPAIGN
         </button>
         <button
-          className="border-2 py-1 px-4 border-stone-950 rounded "
+          className="border-2 py-1 px-4 border-stone-950 hover:border-[#d1a018] rounded "
           style={{
             fontFamily: "Oswald",
             fontWeight: "normal",

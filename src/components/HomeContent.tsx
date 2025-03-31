@@ -5,14 +5,14 @@ const HomeContent = () => {
     <div>
       <div className="bg-white">
         <div className="container  mx-auto flex h-22 items-end">
-          <h2 className="uppercase text-[#fcb900] py-1 text-4xl">
+          <h2 className="uppercase text-[#d1a018] py-1 text-4xl tracking-wider">
             Rhapsody IM Campaigns International
           </h2>
         </div>
       </div>
-      <div className="container mx-auto">
+      <div className="container mt-8 mx-auto">
         <div className=" my-6">
-          <h4 className="uppercase text-4xl text-center">
+          <h4 className="uppercase text-4xl text-center tracking-wide">
             RHAPSODY OF REALITIES ….TO THE ENDS OF THE EARTH-Northshore
             Massachusetts
           </h4>
@@ -137,7 +137,7 @@ const HomeContent = () => {
                     />
                   </div>
                   <div>
-                    <h3 className="uppercase text-sm text-[#fcb900] mb-3">
+                    <h3 className="uppercase text-sm text-[#d1a018] mb-3">
                       Pastor Samson Increase
                     </h3>
                     <p className="text-gray-800">1 campaign</p>
@@ -151,8 +151,8 @@ const HomeContent = () => {
                     ZONE USA REGION 2.
                   </h6>
                   <ul  className="my-4">
-                    <li className="text-[#fcb900]">Website</li>
-                    <li className="text-[#fcb900]">Facebook</li>
+                    <li className="text-[#d1a018]">Website</li>
+                    <li className="text-[#d1a018]">Facebook</li>
                   </ul>
                 </div>
               </div>
