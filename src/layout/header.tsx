@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="container mx-auto">
       <div
-        className="py-4 flex justify-end gap-4"
+        className="py-4 px-4 flex justify-end gap-4"
         style={{ fontFamily: "Helvetica Neue" }}
       >
         <button

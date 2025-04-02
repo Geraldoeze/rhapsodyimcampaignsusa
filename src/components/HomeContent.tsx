@@ -5,19 +5,19 @@ const HomeContent = () => {
     <div>
       <div className="bg-white">
         <div className="container  mx-auto flex h-22 items-end">
-          <h2 className="uppercase text-[#d1a018] py-1 text-4xl tracking-wider">
+          <h2 className="uppercase text-[#d1a018] py-1 px-4 text-2xl md:text-4xl tracking-wider">
             Rhapsody IM Campaigns International
           </h2>
         </div>
       </div>
       <div className="container mt-8 mx-auto">
-        <div className=" my-6">
-          <h4 className="uppercase text-4xl text-center tracking-wide">
+        <div className=" my-6 px-4">
+          <h4 className="uppercase text-2xl md:text-4xl text-center tracking-wide">
             RHAPSODY OF REALITIES ….TO THE ENDS OF THE EARTH-Northshore
             Massachusetts
           </h4>
           <p
-            className="text-center text-2xl  my-4"
+            className="text-center text-xl md:text-2xl  my-4"
             style={{ fontFamily: "Outfit" }}
           >
             Rhapsody of Realities Daily Devotional is the world’s most freely
@@ -33,16 +33,16 @@ const HomeContent = () => {
             copies around the world.
           </p>
         </div>
-        <div className="py-6 flex">
-          <div className="border-4 border-[#ffffff4d] w-[65%]">
+        <div className="py-6 px-2 flex flex-col md:flex-row">
+          <div className="border-4 border-[#ffffff4d] w-full md:w-[65%]">
             <img width={"100%"} src="assets/images/pastor.jpg" alt="" />
           </div>
         </div>
       </div>
       <div className="bg-gray-100 py-10">
         <div className="container mx-auto ">
-          <div className="flex  justify-between">
-            <div className="w-[65%]">
+          <div className="flex px-2 flex-col md:flex-row justify-between">
+            <div className="w-full md:w-[65%]">
               <div className=" bg-white border border-gray-200 my-8 p-8">
                 <h2 className="font-medium text-black py-1 text-2xl">
                   About the Campaign
@@ -119,7 +119,7 @@ const HomeContent = () => {
                 </form>
               </div>
             </div>
-            <div className="w-[32%]">
+            <div className="w-full md:w-[32%]">
               <div className=" bg-white border border-gray-200 my-8 p-8">
                 <div className="flex justify-center mb-8">
                   <h2 className="font-medium text-black border-b-2 border-gray-200 py-1 px-2 text-2xl">
