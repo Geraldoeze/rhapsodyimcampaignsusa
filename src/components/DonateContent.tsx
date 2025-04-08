@@ -7,7 +7,7 @@ const DonateSection = () => {
     options: {
       chart: {
         height: 350,
-        type: "radialBar",
+        type: "radialBar" as const,
       },
       labels: ["Funded"],
       colors: ["#fff"],
