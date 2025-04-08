@@ -1,3 +1,4 @@
+import DonateSection from "./DonateContent";
 
 
 const HomeContent = () => {
@@ -37,6 +38,7 @@ const HomeContent = () => {
           <div className="border-4 border-[#ffffff4d] w-full md:w-[65%]">
             <img width={"100%"} src="assets/images/pastor.jpg" alt="" />
           </div>
+          <DonateSection />
         </div>
       </div>
       <div className="bg-gray-100 py-10">
