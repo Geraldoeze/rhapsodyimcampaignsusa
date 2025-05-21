@@ -34,13 +34,20 @@ const DonateSection = () => {
     },
   });
 
+  const handleClick = () => {
+    window.open(
+      "https://buy.stripe.com/test_eVq7sN72xdr1dixajG9oc00",
+      "_blank"
+    );
+  };
   return (
     <div className="p-6 max-w-xl mx-auto w-full md:w-[43%]">
       <div className="flex justify-center">
         {/* Donate Button */}
         <button
+          onClick={handleClick}
           style={{ fontFamily: "inherit" }}
-          className="bg-gray-900 text-xl text-white mx-auto px-8 py-4 tracking-wider rounded border-2 border-[#d1a018] hover:border-2 hover:border-gray-950 hover:bg-[#d1a018] mb-6"
+          className="bg-gray-900 cursor-pointer text-xl text-white mx-auto px-8 py-4 tracking-wider rounded border-2 border-[#d1a018] hover:border-2 hover:border-gray-950 hover:bg-[#d1a018] mb-6"
         >
           DONATE
         </button>
